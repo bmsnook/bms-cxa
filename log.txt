@@ -1,0 +1,10 @@
+bmsnook@uboot01:/home/bmsnook% apt search virtualenv | grep -wA1 ^virtualenv  
+bmsnook@uboot01:/home/bmsnook% mkdir -p git/bms-cxa
+bmsnook@uboot01:/home/bmsnook% cd git/bms-cxa
+bmsnook@uboot01:/home/bmsnook/git/bms-cxa% vi README.md
+bmsnook@uboot01:/home/bmsnook/git/bms-cxa% git init
+bmsnook@uboot01:/home/bmsnook/git/bms-cxa% git add README.md
+bmsnook@uboot01:/home/bmsnook/git/bms-cxa% git commit -m "setting up new repo"
+bmsnook@uboot01:/home/bmsnook/git/bms-cxa% git remote add origin git@github.com:bmsnook/bms-cxa.git
+bmsnook@uboot01:/home/bmsnook/git/bms-cxa% git push -u origin master
+
